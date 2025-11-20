@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoJuBlock Settings</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🚫 MoJuBlock</h1>
+      <p class="subtitle">Mouto-chan Judol Blocker</p>
+    </header>
+
+    <section class="stats">
+      <div class="stat-item">
+        <span class="label">Last Updated:</span>
+        <span class="value" id="lastUpdate">Loading...</span>
+      </div>
+      <div class="stat-item">
+        <span class="label">Blacklist URLs:</span>
+        <span class="value" id="urlCount">Loading...</span>
+      </div>
+      <div class="stat-item">
+        <span class="label">Blacklist Words:</span>
+        <span class="value" id="wordCount">Loading...</span>
+      </div>
+    </section>
+
+    <section class="actions">
+      <button id="updateBtn" class="btn btn-primary">
+        🔄 Update Blocklists Now
+      </button>
+      <button id="settingsBtn" class="btn btn-secondary">
+        ⚙️ Settings
+      </button>
+      <button id="reportsBtn" class="btn btn-secondary">
+        📋 View Reports
+      </button>
+    </section>
+
+    <section class="ignored-sites">
+      <h3>Ignored Sites (7-day)</h3>
+      <div id="ignoredList" class="list-container">
+        <p class="empty-state">No ignored sites</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>MoJuBlock v1.0.0</p>
+      <p>
+        <a href="https://github.com/rafiq8k-moga/mojublock" target="_blank">
+          GitHub
+        </a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

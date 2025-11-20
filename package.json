@@ -1,0 +1,22 @@
+{
+  "name": "mojublock",
+  "version": "1.0.0",
+  "description": "Mouto-chan Judol Block - Chrome Extension MV3",
+  "author": "rafiq8k-moga",
+  "license": "MIT",
+  "scripts": {
+    "dev": "echo 'Load unpacked from chrome://extensions/'",
+    "build": "echo 'Extension ready for packaging'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "content-blocker",
+    "adult-content-filter",
+    "mv3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafiq8k-moga/mojublock"
+  }
+}
