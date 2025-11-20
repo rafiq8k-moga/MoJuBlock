@@ -233,7 +233,7 @@ MIT License - Feel free to fork and modify
 
 - 🐛 Found a bug? [Open an issue](https://github.com/rafiq8k-moga/mojublock/issues)
 - 💡 Have a suggestion? [Start a discussion](https://github.com/rafiq8k-moga/mojublock/discussions)
-- 📧 Contact: rafiq8k.moga@gmail.com
+- 📧 Contact: r8kstudio@gmail.com
 
 ## Changelog
 
